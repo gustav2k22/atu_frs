@@ -1,0 +1,25 @@
+{
+    "name": "gustavo/atu_frs",
+    "autoload": {
+        "psr-4": {
+            "Gustavo\\CiFms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ATU Fees Reminder"
+        }
+    ],
+    "require": {
+        "railsware/mailtrap-php": "^2.0",
+        "symfony/http-client": "^6.4",
+        "nyholm/psr7": "^1.8",
+        "league/oauth2-client": "^2.7",
+        "league/oauth2-google": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
